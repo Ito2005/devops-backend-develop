@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend-django-service
+  name: devops-backend-develop-service
 spec:
   selector:
-    app: backend-django
+    app: devops-backend-develop
   ports:
     - protocol: TCP
       port: 80

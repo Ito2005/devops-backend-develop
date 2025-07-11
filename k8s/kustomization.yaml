@@ -4,6 +4,6 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-  - name: backend-django
-    newName: leonardojr96/backend-django
+  - name: devops-backend-develop
+    newName: Ito2005/devops-backend-develop
     newTag:
