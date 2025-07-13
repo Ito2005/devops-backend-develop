@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devops-backend-develop
+  name: devops-backend
 spec:
-    replicas: 3
-    selector:
-        matchLabels:
-        app: devops-backend-develop
-    template:
-        metadata:
-        labels:
-          app: devops-backend-develop
-        spec:
-        containers:
-        - name: devops-backend-develop
-          image: Ito2005/devops-backend-develop
+  replicas: 3
+  selector:
+    matchLabels:
+      app: devops-backend
+  template:
+    metadata:
+      labels:
+        app: devops-backend
+    spec:
+      containers:
+        - name: devops-backend
+          image: ito2005/ito2005
           ports:
-          - containerPort: 8000
+            - containerPort: 8000

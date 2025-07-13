@@ -4,6 +4,6 @@ resources:
   - deployment.yaml
   - service.yaml
 images:
-  - name: devops-backend-develop
-    newName: Ito2005/devops-backend-develop
+  - name: devops-backend
+    newName: ito2005/ito2005
     newTag:
